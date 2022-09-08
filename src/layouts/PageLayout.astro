@@ -21,8 +21,8 @@ const { title = 'Tailwind Site' } = Astro.props as Props;
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
   <title>{title}</title>
 </head>
-<body class="bg-body text-white font-poppins pb-12">
-  <header class='py-6'>
+<body>
+  <header>
     <Navbar />
   </header>
   <main>
@@ -30,9 +30,3 @@ const { title = 'Tailwind Site' } = Astro.props as Props;
   </main>  
 </body>
 </html>
-
-<style>
-  html, body {
-    scroll-behavior: smooth;
-  }
-</style>
